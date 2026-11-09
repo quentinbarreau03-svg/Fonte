@@ -21,6 +21,10 @@ Le détail de chaque session (contenu, taille, critères « terminé », tests) 
 
 **6 nov. 2026 — regroupement demandé par le propriétaire** : les 8 sessions prévues (3a à 3h) deviennent 5 (3A à 3E). Correspondance : 3a + 3b → 3A ; 3c → 3B ; 3d → 3C ; 3e + 3f → 3D ; 3g + 3h → 3E. La migration (3B) et Firebase (3C) restent séparées : vérification des données sur les deux iPhone entre les deux. Chaque session regroupée est faite en parties, un commit par partie ; une partie non terminée passe au début de la session suivante et est notée ici.
 
+## Équipe IA (9 nov. 2026)
+
+Depuis le 9 nov. 2026, le travail se fait avec une équipe Claude Code : un directeur technique (session principale) et cinq sous-agents en `model: opus` (`technical-researcher`, `software-architect`, `developer`, `quality-assurance`, `ux-ui-specialist`), définis dans `.claude/agents/`. Règles : `CLAUDE.md` ; équipe : `docs/AI_TEAM.md` ; processus : `docs/DEVELOPMENT_WORKFLOW.md` ; décisions : `docs/PROJECT_DECISIONS.md`. Aucune fonctionnalité de l’appli modifiée par cette installation (branche `claude/sharp-franklin-9sa0iz`). Fusion et publication : uniquement avec l’accord du propriétaire.
+
 ## Version du code de l’appli
 
 - Version dans `main` : commit `2498d17` (phase 3D, fusionnée par la pull request n° 14 avec l’accord du propriétaire, le 7 nov. 2026 ; avant : 3C, pull request n° 13).
